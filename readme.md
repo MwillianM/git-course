@@ -1,5 +1,2 @@
 # Git Course
-
-Este é um repositório teste.
-saiba mais.
-2
+Até um café é válido!
