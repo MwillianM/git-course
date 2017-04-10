@@ -2,6 +2,7 @@
 git config --global user.name "$nome"
 git config --global user.email "$email"
 git config --global core.editor $editor
+git config --global alias.s status
 git config --list
 mkdir $repositorio
 cd $repositorio
@@ -27,3 +28,6 @@ git reset (--option) $hashdaversao
 git remote add $remotename $remotolink
 git push -u $remotedestino $branchorigem
 git clone $repositoriolink $pastalocal
+git stash
+git stash apply
+git stash clear
